@@ -1,0 +1,33 @@
+:root{
+    --backtestColor:aqua
+}
+h1{
+    font-size: 24px;
+    border-bottom: 1px solid grey;
+    padding: 0 10px 6px;
+}
+dl{
+    margin: 4px;
+    padding: 8px;
+    position: relative;
+}
+dt{
+    margin: 4px 0;
+    padding: 0;
+}
+dt::before{
+    content: "Q.";}
+dt::after{
+    content: "+";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+dd{
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+dd::before{
+    content: "A.";
+}
